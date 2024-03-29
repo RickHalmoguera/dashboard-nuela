@@ -13,7 +13,11 @@ export default {
         'font-black':'#1A1919',
         'font-gray':'#4D4D4D',
         'font-nuela':'#635BFF ',
-        'toggle-gray':'#F5F5F5'
+        'toggle-gray':'#F5F5F5',
+        'table-th':'#A5A5A5',
+        'table-thead':'#FBFBFB',
+        'table-border':'#ECECEC'
+
       }
     },
     fontFamily: {
