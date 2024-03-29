@@ -5,6 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
+      colors:{
+        'gradient-top': '#EAE9FE',
+        'gradient-bottom': '#D6D5FF',
+        'font-purple':'#5C37EB',
+        'font-black':'#1A1919',
+        'font-gray':'#4D4D4D',
+        'font-nuela':'#635BFF '
+      }
+    },
     fontFamily: {
       primary: ['Onest', 'sans-serif'],
       secondary: ['Inter', 'sans-serif'],
