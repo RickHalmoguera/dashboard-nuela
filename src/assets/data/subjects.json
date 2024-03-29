@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Matemáticas",
+    "tipo": "Obligatoria",
+    "curso": "1° Bachillerato",
+    "grupo": "B",
+    "horas_semana": 5,
+    "espacio_regular": "1° Bach - Grupo B",
+    "es_lectiva": true
+  },
+  {
+    "id": 2,
+    "nombre": "Matemáticas",
+    "tipo": "Obligatoria",
+    "curso": "2° Bachillerato",
+    "grupo": "C ",
+    "horas_semana": 5,
+    "espacio_regular": "2° Bach - Grupo C",
+    "es_lectiva": true
+  },
+  {
+    "id": 3,
+    "nombre": "Física y Quimica",
+    "tipo": "Obligatoria",
+    "curso": "4° ESO",
+    "grupo": "A",
+    "horas_semana": 5,
+    "espacio_regular": "Laboratorio",
+    "es_lectiva": true
+  },
+  {
+    "id": 4,
+    "nombre": "Frances",
+    "tipo": "Optativa",
+    "curso": "1° Bachillerato",
+    "grupo": "A",
+    "horas_semana": 3,
+    "espacio_regular": "1° Bach - Grupo A",
+    "es_lectiva": true
+  },
+  {
+    "id": 2,
+    "nombre": "Literatura",
+    "tipo": "Obligatoria",
+    "curso": "2° Bachillerato",
+    "grupo": "C ",
+    "horas_semana": 2,
+    "espacio_regular": "2° Bach - Grupo C",
+    "es_lectiva": false
+  },
+  {
+    "id": 3,
+    "nombre": "Geografía",
+    "tipo": "Obligatoria",
+    "curso": "4° ESO",
+    "grupo": "A",
+    "horas_semana": 1,
+    "espacio_regular": "2° Bach - Grupo C",
+    "es_lectiva": false
+  },
+  {
+    "id": 4,
+    "nombre": "Frances",
+    "tipo": "Optativa",
+    "curso": "1° Bachillerato",
+    "grupo": "A",
+    "horas_semana": 1,
+    "espacio_regular": "1° Bach - Grupo A",
+    "es_lectiva": false
+  }
+]

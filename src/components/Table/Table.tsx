@@ -1,6 +1,11 @@
 import { BsThreeDotsVertical } from "react-icons/bs"
+import { SubjectInterface } from "../../interfaces/SubjectInterfaces";
 
-export default function Table(){
+interface TableProps {
+    subjectsListData: SubjectInterface[];
+}
+
+const Table: React.FC<TableProps> = ({ subjectsListData }) => {
     return(
         <table className="table-auto border border-solid border-gray-300 rounded-2xl">
             <thead>
@@ -15,18 +20,21 @@ export default function Table(){
                 </tr>    
             </thead>
             <tbody>
-                <tr  className="h-12 text-center bg-white border-solid border border-gray-300">
-                    <td >Matematicas</td>
-                    <td >Obligatoria</td>
-                    <td >1° Bachillerato</td>
-                    <td >B</td>
-                    <td >5 h</td>
-                    <td >1° Bach - Grupo B</td>
-                    <td className=" h-12 flex items-center justify-center"><BsThreeDotsVertical/></td>
-                </tr>    
+                {subjectsListData.map((subject)=>(
+                    <tr  className="h-12 text-center bg-white border-solid border border-gray-300" key={subject.id}>
+                        <td >{subject.nombre}</td>
+                        <td >{subject.tipo}</td>
+                        <td >{subject.curso}</td>
+                        <td >{subject.grupo}</td>
+                        <td >{subject.horas_semana} h</td>
+                        <td >{subject.espacio_regular}</td>
+                        <td className=" h-12 flex items-center justify-center"><BsThreeDotsVertical/></td>
+                    </tr>    
+
+                ))}
             </tbody>  
-         
         </table>
     )
 
 }
+export default Table;
