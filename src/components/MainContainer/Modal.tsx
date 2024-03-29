@@ -5,10 +5,11 @@ interface ModalProps {
     handleCloseModal: () => void
 }
 
-const Modal: React.FC<ModalProps> = ({ modalInfo , handleCloseModal}) => {
-    return(
-        <div className="h-full w-full top-0 right-0 absolute  flex justify-center items-center drop-shadow-xl">
-            <div className=" w-[576px]  bg-white rounded-sm flex flex-col gap-8 p-8" >
+const Modal: React.FC<ModalProps> = ({ modalInfo, handleCloseModal }) => {
+    return (
+        <div className="h-full w-full top-0 right-0 absolute flex justify-center items-center">
+            <div className="bg-gray-500 opacity-90 h-full w-full absolute"></div>
+            <div className="w-[576px] bg-white rounded-lg flex flex-col gap-8 p-8 relative">
                 <div className="flex justify-between items-center">
                     <p className="font-primary font-medium text-base">Detalle asignatura</p>
                     <button onClick={handleCloseModal}>X</button>
