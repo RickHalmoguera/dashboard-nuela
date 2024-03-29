@@ -9,7 +9,10 @@ export default {
       colors:{
         'gradient-top': '#EAE9FE',
         'gradient-bottom': '#D6D5FF',
-        'avatar-text-purple':'#5C37EB'
+        'font-purple':'#5C37EB',
+        'font-black':'#1A1919',
+        'font-gray':'#4D4D4D',
+        'font-nuela':'#635BFF '
       }
     },
     fontFamily: {

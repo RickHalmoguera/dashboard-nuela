@@ -8,7 +8,7 @@ export default function NavLink({ Icon, text }: { Icon: IconType | string, text:
             ) : (
             <Icon className="w-4 h-4" />
             )}
-            <p className="font-primary font-normal text-sm">{text}</p>
+            <p className="font-primary font-normal text-sm text-font-black">{text}</p>
         </div>
     )
 }
