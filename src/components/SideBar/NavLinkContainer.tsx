@@ -12,7 +12,7 @@ import { CiSettings } from "react-icons/ci"
 
 export default function NavLinkContainer(){
     return(
-        <div className="flex flex-col gap-4"> 
+        <div className="flex flex-col"> 
             <NavLink Icon ={LogoNuela} text="Inicio"/>
             <NavLink Icon ={CiClock2} text="Horarios"/>
             <NavLink Icon ={PiGraduationCap} text="Profesores"/>
