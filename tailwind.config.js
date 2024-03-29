@@ -12,7 +12,8 @@ export default {
         'font-purple':'#5C37EB',
         'font-black':'#1A1919',
         'font-gray':'#4D4D4D',
-        'font-nuela':'#635BFF '
+        'font-nuela':'#635BFF ',
+        'toggle-gray':'#F5F5F5'
       }
     },
     fontFamily: {
