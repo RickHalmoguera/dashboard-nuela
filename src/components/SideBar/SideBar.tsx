@@ -4,7 +4,7 @@ import TopContainer from "./TopContainer"
 export default function SideBar (){
     return(
         <>
-            <aside className='h-screen w-64 py-8 px-4 bg-blue-200'>
+            <aside className='h-screen w-64 py-8 px-4'>
                 <TopContainer/> 
                 <NavLinkContainer/>
             </aside>
