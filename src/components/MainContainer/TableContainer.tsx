@@ -10,6 +10,7 @@ import TableFilter from "../Table/TableFilter"
 import { toast } from "react-toastify"
 
 
+
 export default function TableContainer(){
     const dispatch = useAppDispatch()
     const subjectsListData = useAppSelector(getSubjectsData)
@@ -50,7 +51,7 @@ export default function TableContainer(){
             <TableFilter handleFilter={handleFilter}/>
             <AddBtn/>     
             { spinner? 
-                <ClimbingBoxLoader className="mx-auto my-20" color="#635BFF" /> 
+                <ClimbingBoxLoader className="mx-auto my-auto" color="#635BFF" /> 
                 : <Table subjectsListData={filteredSubjectsList}/> 
             }
         </div>
